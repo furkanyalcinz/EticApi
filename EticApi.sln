@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{53979B81-D576-40E0-BD54-CB9D73547A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticApi.Domain", "Core\EticApi.Domain\EticApi.Domain.csproj", "{B7834C5D-C3AD-463C-BFCC-9B4B43CF4F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticApi.Application", "EticApi.Application\EticApi.Application.csproj", "{FDCF0085-4C58-4115-B876-AEB0341F9E17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2E5759C0-39FF-4A0E-AADB-42DA4D24F346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticApi.Infrastructure", "Infrastructure\EticApi.Infrastructure\EticApi.Infrastructure.csproj", "{EBD31EA3-51B0-4FD2-859B-6AE33B503092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticApi.Persistence", "Infrastructure\EticApi.Persistence\EticApi.Persistence.csproj", "{4A960553-CBAC-46C6-9C66-6C7C5DA75763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2971BF7D-5C93-4D0C-9C31-23434ACDD77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticApi.API", "Presentation\EticApi.API\EticApi.API.csproj", "{5F3BA950-0718-4E07-A9FF-93B933168708}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7834C5D-C3AD-463C-BFCC-9B4B43CF4F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7834C5D-C3AD-463C-BFCC-9B4B43CF4F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7834C5D-C3AD-463C-BFCC-9B4B43CF4F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7834C5D-C3AD-463C-BFCC-9B4B43CF4F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCF0085-4C58-4115-B876-AEB0341F9E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCF0085-4C58-4115-B876-AEB0341F9E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCF0085-4C58-4115-B876-AEB0341F9E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCF0085-4C58-4115-B876-AEB0341F9E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD31EA3-51B0-4FD2-859B-6AE33B503092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD31EA3-51B0-4FD2-859B-6AE33B503092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD31EA3-51B0-4FD2-859B-6AE33B503092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD31EA3-51B0-4FD2-859B-6AE33B503092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A960553-CBAC-46C6-9C66-6C7C5DA75763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A960553-CBAC-46C6-9C66-6C7C5DA75763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A960553-CBAC-46C6-9C66-6C7C5DA75763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A960553-CBAC-46C6-9C66-6C7C5DA75763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3BA950-0718-4E07-A9FF-93B933168708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3BA950-0718-4E07-A9FF-93B933168708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3BA950-0718-4E07-A9FF-93B933168708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3BA950-0718-4E07-A9FF-93B933168708}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7834C5D-C3AD-463C-BFCC-9B4B43CF4F19} = {53979B81-D576-40E0-BD54-CB9D73547A13}
+		{FDCF0085-4C58-4115-B876-AEB0341F9E17} = {53979B81-D576-40E0-BD54-CB9D73547A13}
+		{EBD31EA3-51B0-4FD2-859B-6AE33B503092} = {2E5759C0-39FF-4A0E-AADB-42DA4D24F346}
+		{4A960553-CBAC-46C6-9C66-6C7C5DA75763} = {2E5759C0-39FF-4A0E-AADB-42DA4D24F346}
+		{5F3BA950-0718-4E07-A9FF-93B933168708} = {2971BF7D-5C93-4D0C-9C31-23434ACDD77B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DE5C416-CD50-4C41-A5FD-B46CD9CB97E1}
+	EndGlobalSection
+EndGlobal
